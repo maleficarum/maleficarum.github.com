@@ -1,0 +1,47 @@
+body {	
+	margin:0; 
+	padding:0; 
+	line-height: 1.4em; 
+	word-spacing:1px; 
+	letter-spacing:0.2px; 
+	font: 13px Arial, Helvetica,"Lucida Grande", serif; 
+	color: #000;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2.h-border {
+	font-size: 24px;
+}	
+
+h3.h-border {
+	font-size: 20px;
+}	
+
+#footer {
+	display: none;
+}
+
+#contact_us {
+	display: none;
+}
+.progressBar {
+	border: 0;
+}
+
+.progressValue span {
+	display: block;
+}
+
+ul.checklist, ul.list, ul.arrow {
+	list-style: square;
+	list-style-position: inside;
+}
+
+ul.checklist li, ul.list li, ul.arrow li {
+	padding-left: 0px;
+}
+
+		
