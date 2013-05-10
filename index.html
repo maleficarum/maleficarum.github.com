@@ -12,6 +12,8 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+<script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="javascripts/gh.js" type="text/javascript"></script>
 
     <title>L.I. Oscar Ivan Hernandez Ventura</title>
   </head>
@@ -61,6 +63,10 @@ Conctacto: o at maleficarum dot mx
 
 <p>Actualmente soy consultor de venta en Oracle Mexico desde 2012.</p>
 
+<h3>Proyectos independientes</h3>
+
+<div id="github-projects"></div>
+
 <h3>Contacto</h3>
 	<ul>
 		<li><a href="mailto:o@maleficarum.mx">Correo electr&oacute;nico</a></li>
@@ -84,6 +90,10 @@ Conctacto: o at maleficarum dot mx
       </div>
     </div>
 
-  
+<script type="text/javascript">
+  $(function() {
+    $("#github-projects").loadRepositories("maleficarum");
+  });
+</script>  
   </body>
 </html>
