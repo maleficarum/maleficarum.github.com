@@ -511,7 +511,7 @@
 	}
 
 	.navicon-resume {
-		background: url("../images/nav_icons.png") -32px 0;
+		background: url("/images/nav_icons.png") -32px 0;
 	}
 
 	.navicon-portfolio {
