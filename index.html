@@ -2,535 +2,376 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Oscar I Hernandez V.</title>
+  <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect" />
+  <link as="style"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    onload="this.rel='stylesheet'" rel="stylesheet" />
+  <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
 
-    <title>L.I. Oscar Ivan Hernandez Ventura </title>
-
-    <meta name="description" content="Oscar Ivan Hernandez Ventura">
-
-    <link rel="shortcut icon" href="images/fav.png" type="image/png">
-
-    <link rel="stylesheet" href="css/main.css" media="screen">
-    <link rel="stylesheet" href="css/flexslider.css" media="screen">
-    <link rel="stylesheet" href="css/fancybox-light.css" media="screen">
-
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
-
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=false&language=en"></script>
-
+            <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1773cf",
+            "background-light": "#f6f7f8",
+            "background-dark": "#111921",
+          },
+          fontFamily: {
+            display: ["Inter"],
+          },
+          borderRadius: {
+            DEFAULT: "0.25rem",
+            lg: "0.5rem",
+            xl: "0.75rem",
+            full: "9999px"
+          },
+        },
+      },
+    };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-    <body>
 
-        <audio><source src="audio/sound.mp3"/></audio>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+  <div class="flex flex-col min-h-screen">
+    <header
+      class="sticky top-0 z-10 w-full bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <div class="flex items-center gap-4">
+            <svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z"
+                fill="currentColor"></path>
+            </svg>
+            <h1 class="text-xl font-bold text-gray-900 dark:text-white">Oscar I Hernandez V</h1>
+          </div>
+          <div class="flex items-center gap-4">
+            <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+              <a class="hover:text-primary transition-colors" href="#about">About</a>
+              <a class="hover:text-primary transition-colors" href="#experience">Experience</a>
+              <a class="hover:text-primary transition-colors" href="#skills">Skills</a>
+            </nav>
+            <div class="flex items-center">
 
-        <!-- Main Content -->
-        <div class="shadow"><!-- Used for shadow behind main content -->
-        <div id="content-wrapper">
+              <!-- <button
+                class="flex items-center justify-center gap-2 rounded-lg bg-primary/10 dark:bg-primary/20 hover:bg-primary/20 dark:hover:bg-primary/30 px-4 py-2 text-sm font-semibold text-primary transition-colors"
+                type="button" onclick="alert('The Spanish translation will be made soon.')">
+                <span class="material-symbols-outlined text-base">print</span>
+                <span>Print</span>
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="max-w-4xl mx-auto space-y-16">
+        <section class="text-center" id="hero">
+          <h2 class="text-4xl font-bold text-gray-900 dark:text-white">Oscar I Hernandez V</h2>
+          <p class="text-lg text-gray-600 dark:text-gray-400 mt-1">Software & Cloud Architect - Software Developer</p>
 
-            <!-- Logo Demo -->
-            <a href="blacktheme/index.html" id="demo-logo">
-                <!--img src="images/demo-logo.png" alt="" /-->
-            </a><!-- /Logo Demo -->
+          <div class="mt-4 flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm text-gray-600 dark:text-gray-400">
+            <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base">location_on</span>
+              Mexico City, Mexico</span>
+            <a class="flex items-center gap-1.5 hover:text-primary" href="mailto:touch@maleficarum.mx"><span
+                class="material-symbols-outlined text-base">mail</span> touch@maleficarum.mx</a>
+            <a class="flex items-center gap-1.5 hover:text-primary" href="https://www.linkedin.com/in/oscariventura/"
+              rel="noopener noreferrer" target="_blank">
+              <svg aria-hidden="true" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path clip-rule="evenodd"
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                  fill-rule="evenodd"></path>
+              </svg>
+              www.linkedin.com/in/oscariventura/
+            </a>
+            <a class="flex items-center gap-1.5 hover:text-primary" href="https://github.com/maleficarum"
+              rel="noopener noreferrer" target="_blank">
+              <svg aria-hidden="true" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path clip-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.165 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.942.359.308.678.92.678 1.852 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z"
+                  fill-rule="evenodd"></path>
+              </svg>
+              github.com/maleficarum
+            </a>
 
-            <!-- ABOUTME -->
-            <div id="aboutme">
 
-                <div class="slider-wrapper"><!-- Flexslider -->
-                    <div class="flexslider">
-                        <ul class="slides">
-                            <li>
-                                <img src="images/photocontent/MALEFICARUM.JPG" alt="" />
-                            </li>
-                        </ul>
-                    </div>
-                </div><!-- /Flexslider -->
-
-                <div class="about-wrapper">
-                    <div class="title">
-                        <h1>Oscar I. Hernandez V.</h1>
-                        <h5>JAVA DEVELOPER</h5>
-                    </div>
-                    <div class="download-card"><!-- Button Download vCard -->
-                        <a href="blog.html" target="_blank" class="button">
-                            <div class="button-medium button-red">
-                                <div class="button-anim"></div>
-                                <div class="button-medium-label">View Blog</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="info-slider"><!-- Info Slider -->
-                        <div class="info-slide-list">
-                            <div class="info-slide-wrapper">
-
-                                <div class="info-slide-item"><!-- 1 -->
-                                    <div class="top-border-red">
-                                        <p>Systems Engineer by U.N.A.M. and Developer, Software arquitect and IoT specialist, applying technology and experience on design, development, deployment and consumption of Web resources. Chef and amateur musician and a Proud father of an special little person.</p>
-                                    </div>
-                                </div>
-
-                                <div class="info-slide-item"><!-- 2 -->
-                                    <div class="top-border-blue">
-                                        <div class="left-column">
-                                            <ul class="main-info-list">
-                                                <li>Name<span>Oscar Ivan Hernandez Ventura</span></li>
-                                                <li>Birthday<span>Octuber</span></li>
-                                                <li>Address<span>Mexico City</span></li>
-                                            </ul>
-                                        </div>
-                                        <div class="right-column">
-                                            <ul class="main-info-list">
-                                                <li>Phone<span>+52 (55)</span></li>
-                                                <li>Email<span>contacto@maleficarum.mx</span></li>
-                                                <li>Website<span>maleficarum.mx</span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="info-slide-item"><!-- 4 -->
-                                    <div class="top-border-yellow">
-                                        <div class="mini-location">
-                                            <div class="mini-icon-pin"></div>
-                                            <div class="mini-location-text">Mexico City</div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div><!-- /Info Slider -->
+        </section>
+        <section id="about" style="scroll-margin-top: 100px;">
+          <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h3>
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+            Software Developer with 20+ years of experience specializing in cloud-native applications and scalable software architecture. 
+            Proven track record in designing, developing, and maintaining robust software solutions.<br /><br />
+            Expertise in Java and TypeScript ecosystems with strong focus on DevOps practices, Infrastructure as Code (Terraform), and Site Reliability Engineering (SRE) principles. Delivers high-quality, maintainable systems through collaborative development and continuous improvement.
+          </p>
+        </section>
+        <section id="experience" style="scroll-margin-top: 100px;">
+          <a href="#detailed_experience">
+            <h3 class="text-2xl font-bold mb-8 text-gray-900 dark:text-white">Experience</h3>
+            <div class="space-y-8">
+              <div class="flex gap-6 card">
+                <div class="flex-shrink-0">
+                  <div class="w-16 h-16 rounded-lg bg-cover bg-center">
+                    <svg style="display:block" class="u30-oicn" xmlns="http://www.w3.org/2000/svg" width="32" height="21" viewBox="0 0 32 21"><path fill="#C74634" d="M9.9,20.1c-5.5,0-9.9-4.4-9.9-9.9c0-5.5,4.4-9.9,9.9-9.9h11.6c5.5,0,9.9,4.4,9.9,9.9c0,5.5-4.4,9.9-9.9,9.9H9.9 M21.2,16.6c3.6,0,6.4-2.9,6.4-6.4c0-3.6-2.9-6.4-6.4-6.4h-11c-3.6,0-6.4,2.9-6.4,6.4s2.9,6.4,6.4,6.4H21.2"></path></svg>
+                  </div>
                 </div>
-
-                <div class="floatlimit"></div>
-
-            </div><!-- /AboutMe -->
-
-            <!-- NAVIGATION -->
-            <div id="nav">
-
-                <div id="logo">
-                    <h2>Oscar I. Hernandez</h2>
-                </div>
-
-                <ul class="etabs">
-                    <li class="tab tab-main sound">
-                        <a href="index.html#aboutme" class="gradient-red">
-                            <div class="navicon-about"></div>
-                            <div class="navicon-text">About</div>
-                            <div class="uhere-text">You here</div>
-                        </a>
-                    </li>
-                    <li class="tab tab-notmain sound">
-                        <a href="index.html#resume" class="gradient-blue">
-                            <div class="navicon-resume"></div>
-                            <div class="navicon-text">Resume</div>
-                        </a>
-                    </li>
-                    <!--li class="tab tab-notmain sound">
-                        <a href="blog.html" target="_blank" class="gradient-green">
-                            <div class="navicon-portfolio"></div>
-                            <div class="navicon-text">Blog</div>
-                        </a>
-                    </li-->
-                    <li class="tab tab-notmain sound">
-                        <a href="index.html#contacts" class="gradient-yellow">
-                            <div class="navicon-contact"></div>
-                            <div class="navicon-text">Contacts</div>
-                        </a>
-                    </li>
-                </ul>
-
-            </div><!-- /NAVIGATION -->
-
-            <!-- RESUME -->
-            <div id="resume">
-                <div class="fill-blue">Resume</div>
-
-                <div class="left-column">
-                    <div class="substrate">
-                        <h2>&nbsp;</h2>
-                        <img src="images/photocontent/MALEFICARUM.JPG" width="230" height="300" alt="">
-                        <ul class="main-info-list">
-                            <li>Name<span>Oscar I. Hernandez</span><div class="floatlimit"></div></li>
-                            <li>Birthday<span>Octuber</span><div class="floatlimit"></div></li>
-                            <li>Address<span>Mexico City</span><div class="floatlimit"></div></li>
-                            <li>Email<span>touch@maleficarum.mx</span><div class="floatlimit"></div></li>
-                            <li>Website<span>maleficarum.mx</span><div class="floatlimit"></div></li>
-                        </ul>
-                        <div align="center"><!-- Button Download vCard -->
-									<img src="https://raw.githubusercontent.com/maleficarum/maleficarum.github.com/gh-pages/images/photocontent/OCA_JavaSE7Programmer_clr.gif" width="140" height="80" alt="">
-									<img src="https://raw.githubusercontent.com/maleficarum/maleficarum.github.com/master/images/photocontent/weblogic_cert.gif" width="140" height="80" alt="">
-                                    <img src="https://github.com/maleficarum/maleficarum.github.com/blob/15e75faa2bfc452ba4cdf776e076b279f501dc76/images/Blockchain_Developer_Foundation.png?raw=true" width="140" height="140" alt="">
-                        </div>
-                    </div>
-
-                    <div class="substrate">
-                        <h2>My Skills</h2>
-                        <h3>Development Skills</h3>
-                        <ul class="skills">
-				<li class="skill">Cloud Native<span class="skill-blue-star-5"></span></li>
-				  <li class="skill">Kubernetes<span class="skill-blue-star-4"></span></li>
-                            <li class="skill">OCI<span class="skill-blue-star-3"></span></li>
-                            <li class="skill">Blockchain<span class="skill-blue-star-4"></span></li>
-                            <li class="skill">IoT patterns<span class="skill-blue-star-5"></span></li>
-                            <li class="skill">Arduino Platform<span class="skill-blue-star-5"></span></li>
-                            <li class="skill">Java SE<span class="skill-blue-star-5"></span></li>
-                            <li class="skill">Java EE<span class="skill-blue-star-5"></span></li>
-                            <li class="skill">SpringFramework<span class="skill-blue-star-5"></span></li>
-                            <li class="skill">Hibernate/GORM<span class="skill-blue-star-4"></span></li>
-                            <li class="skill">Asterisk<span class="skill-blue-star-3"></span></li>
-                            <li class="skill">WebLogic/JBoss<span class="skill-blue-star-4"></span></li>
-                            <li class="skill">Groovy/Grails<span class="skill-blue-star-4"></span></li>
-                            <li class="skill">Scala<span class="skill-blue-star-1"></span></li>
-                            <li class="skill">ADF/ADF Mobile<span class="skill-blue-star-3"></span></li>
-                            <li class="skill">Oracle SOA/BPM<span class="skill-blue-star-3"></span></li>
-                        </ul>
-                        <h3>Web Design</h3>
-                        <ul class="skills">
-                            <li class="skill">HTML+CSS<span class="skill-blue-fill-3"></span></li>
-                            <li class="skill">Javascript<span class="skill-blue-fill-4"></span></li>
-                            <li class="skill">Coffee Script<span class="skill-blue-fill-2"></span></li>
-                        </ul>
-                        <h3>IDEs & Tools</h3>
-                        <ul class="skills">
-                            <li class="skill">Intellij Idea<span class="skill-blue-stroke-4"></span></li>
-                            <li class="skill">Eclipse<span class="skill-blue-stroke-3"></span></li>
-                            <li class="skill">JDeveloper<span class="skill-blue-stroke-5"></span></li>
-                        </ul>
-                        <h3>Languages</h3>
-                        <ul class="skills">
-                            <li class="skill">Spanish (Native)<span class="skill-blue-fill-5"></span></li>
-                            <li class="skill">English<span class="skill-blue-fill-4"></span></li>
-                        </ul>                        
-                        <div class="paper-clip"></div>
-                    </div>
-                </div>
-
-                <div class="right-column">
-                    <div class="substrate gradient-blue font-blue">
-                        <h2>About Me</h2>
-                        <h3>Hi, My name is Oscar Ivan...</h3>
-                        <p>Systems Engineer by U.N.A.M. and Software Developer, Architect and IoT specialist, applying technology and experience on design, development, deployment and consumption of Web resources. Chef and amateur musician and a Proud father of an special little person.</p>
-                    </div>
-                    <div class="substrate">
-                        <h2>Employment</h2>
-                        <div class="left-blue">
-<h3>Master Principal Cloud Architect<span class="time-period-right-blue">2023</span></h3>
-                            <h4>Oracle de Mexico</h4>
-                            <p>As Cloud Architect, I'm responsible determine the proper approach to drive business case to the right technology stack to solve in an efficient fashion the requirements, positioning the best services and solutions to reduce cost, optimice resources and get the best ot the best.</p>
-                            <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-                            
-				<h3>Master Principal Cloud Engineer<span class="time-period-right-blue">2021</span></h3>
-                            <h4>Oracle de Mexico</h4>
-                            <p>As Cloud Engineer, I'm responsible to allow, guide and push customers to drive thru the best cloud practices and solutions that oracle has to solve their need.</p>
-                            <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-                            
-                            <h3>Principal Sales Consultant<span class="time-period-right-blue">2016</span></h3>
-                            <h4>Oracle de Mexico</h4>
-                            <p>As Fusion Middleware specialist, I'm responsible to allow and guide customers through the FMW products, but also I'm trying to push the new technologies such as Blockchain and IoT.</p>
-                            <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-                            <h3>Sales Consultant<span class="time-period-right-blue">2012</span></h3>
-                            <h4>Oracle de Mexico</h4>
-                            <p>As Fusion Middleware specialist, I'm responsible to allow and guide customers through the FMW products.</p>
-                            <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-                            <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-                            <h3>Principal Architect<span class="time-period-right-blue">2016</span></h3>
-                            <h4>DH7 Labs (<a href="http://dh7labs.mx" target="_blank">dh7labs.mx</a>)</h4>
-                            <p>I'm the product manager on DH7Labs, where I can give the direction on the asset tracker solution in terms of electronics, software architecture, software partterns and features, as well as the mobile application develoment.</p>                            
-                            <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-
-                            <h3>Senior Java Developer<span class="time-period-right-blue">2009</span> -<span class="time-period-right-blue">2012</span></h3>
-                            <h4>New Vision Telecomunicaciones</h4>
-                            <p>Development of all web-based application using Grails/Spring technologies for prepaid telco operations.</p>
-                            <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-                            <h3>Senior Java Developer<span class="time-period-right-blue">2005</span> -<span class="time-period-right-blue">2009</span></h3></h3>
-                            <h4>Brightstar Mexico</h4>
-                            <p>Development of all web-based application using Tapestry/Spring technologies for prepaid telco operations.</p>
-                        </div>
-                    </div>
-                    <div class="substrate">
-                        <h2>Education.</h2>
-                        <div class="left-blue">
-                            <div class="time-period-left-blue">2009 - 2002</div>
-                            <div class="info-period">
-                                <h3>System Engeneer</h3>
-                                <h4>U.N.A.M.</h4>
-                            </div>
-                            <div class="time-period-left-blue">2007 - 2009</div>
-                            <div class="info-period">
-                                <h3>Bachelor</h3>
-                                <h4>E.N.P. No. 3 (U.N.A.M.)</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="substrate">
-                        <h2>Training.</h2>
-                        <div class="left-blue">
-                            <div class="time-period-left-blue">2020</div>
-                            <div class="info-period">
-                                <h3>Oracle Cloud Infraestructure</h3>
-                                <h4>OCI Architect</h4>
-                            </div>
-                            <div class="time-period-left-blue">2019</div>
-                            <div class="info-period">
-                                <h3>IBM Blockchain Foundation Certified Developer</h3>
-                                <h4>Blockchain Academy</h4>
-                            </div>                                                        
-                            <div class="time-period-left-blue">2018</div>
-                            <div class="info-period">
-                                <h3>Scrum Fundamentals Certified</h3>
-                                <h4>Online Course</h4>
-                            </div>                            
-                            <div class="time-period-left-blue">2017</div>
-                            <div class="info-period">
-                                <h3>Oracle Integration Cloud Service</h3>
-                                <h4>Oracle Brasil</h4>
-                            </div>
-
-                            <div class="time-period-left-blue">2017</div>
-                            <div class="info-period">
-                                <h3>Docker specialist</h3>
-                                <h4>O2 Studio</h4>
-                            </div>
-
-                            <div class="time-period-left-blue">2016</div>
-                            <div class="info-period">
-                                <h3>Programming the Internet of Things (IOT) specialization</h3>
-                                <h4>Online Course</h4>
-                            </div>
-
-                            <div class="info-period">
-                                <h3>ntroduction to the Internet of Things and Embedded Systems</h3>
-                                <h4>Online Course</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>The Arduino Platform and C Programming</h3>
-                                <h4>Online Course</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>Interfacing with the Arduino</h3>
-                                <h4>Online Course</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>The Raspberry Pi Platform and Python Programming for the Raspberry Pi</h3>
-                                <h4>Online Course</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>Interfacing with the Raspberry Pi</h3>
-                                <h4>Online Course</h4>
-                            </div>
-
-                            <div class="time-period-left-blue">2015</div>
-                            <div class="info-period">
-                                <h3>Oracle Weblogic 12c Certified Specialist</h3>
-                                <h4></h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>Oracle IoT Service</h3>
-                                <h4>Oracle Santa Clara, U.S.</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>Oracle Mobile Cloud Service</h3>
-                                <h4>Oracle Brasil, Sao Paulo, Brasil</h4>
-                            </div>
-                            <div class="time-period-left-blue">2014</div>
-                            <div class="info-period">
-                                <h3>Extending Oracle Sales Cloud with Oracle Platform-as-a-Service</h3>
-                                <h4>Virtual Class</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>Java 8</h3>
-                                <h4>Oracle HQ, San Francisco, U.S.</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>Oracle Mobile Security Suite</h3>
-                                <h4>Oracle HQ, San Francisco, U.S.</h4>
-                            </div>
-                            <div class="time-period-left-blue">2013</div>
-                            <div class="info-period">
-                                <h3>Oracle API Gateway</h3>
-                                <h4>Oracle, Santa Clara, U.S.</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>CDT Java EE 7: New Features Ed 1</h3>
-                                <h4>Oracle Development Center, Guadalajara, MX</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>CAF Champions</h3>
-                                <h4>Oracle, Sao Paulo, BR</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>Sales Psychology</h3>
-                                <h4>Universidad Anahuac, MX</h4>
-                            </div>
-                            <div class="info-period">
-                                <h3>El producto eres tu</h3>
-                                <h4>Mondo Nuovo, MX</h4>
-                            </div>
-                            <div class="time-period-left-blue">2012</div>
-                            <div class="info-period">
-                                <h3>Grails</h3>
-                                <h4>SinergyJ, MX</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="floatlimit"></div>
-
-            </div><!-- /RESUME -->
-
-            <!-- PORTFOLIO -->
-            <!--div id="portfolio">
-                <div class="fill-green">Portfolio</div>
-
-                <div class="full-width">
-
-                    <ul id="portfolio-filter">
-                        <li>
-                            <a href="" class="button current"  data-filter=".f-video">
-                                <div class="button-small button-green">
-                                    <div class="button-anim-border"></div>
-                                    <div class="button-small-label">Public</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" class="button" data-filter=".f-photo">
-                                <div class="button-small button-green">
-                                    <div class="button-anim-border"></div>
-                                    <div class="button-small-label">Private</div>
-                                </div>
-                            </a>
-                        </li>
+                <div>
+                  <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Master Principal Cloud Engineer</h4>
+                  <p class="text-sm text-gray-500 dark:text-gray-400">May 2025 - Present</p>
+                  <p class="mt-2 text-gray-700 dark:text-gray-300">
+                    <ul>
+                      <li>
+                        • <b>Provisioned and configured 20+ OKE clusters</b> for enterprise clients, achieving 99.9% uptime and 40% cost reduction through optimized autoscaling.
+                      </li>
+                      <li>
+                        • <b>Implemented GitOps workflows</b> that cut deployment time by 70% and eliminated configuration drift.                        
+                      </li>
+                      <li>
+                      • <b>Accelerated customer onboarding</b> from weeks to days using standardized Terraform modules across 15+ deployments.
+                      </li>
+                      <li>
+                      • <b>Automated infrastructure provisioning</b> reducing manual effort by 80% while ensuring security compliance.
+                      </li>
+                      <li>
+                      • <b>Migrated critical workloads</b> from AWS/GCP to OCI, delivering 30-50% TCO reduction for key accounts.
+                      </li>
+                      <li>
+                      • <b>Architected highly available solutions</b> across OCI regions, reducing RTO for mission-critical applications.
+                      </li>
+                      <li>
+                      • <b>Reduced time-to-market by 60%</b> through automated infrastructure and deployment pipelines.
+                      </li>
+                      <li>
+                      • <b>Strengthened customer partnerships</b> leading to 35% increased OCI consumption and expanded cloud footprints.
+                      </li>
+                      <li>
+                      • <b>Enabled cloud diversification</b> by moving workloads from single-cloud vendors to OCI.
+                      </li>
+                      <li>
+                      • <b>Architected a full-stack Disaster Recovery service</b> on OCI for OKE clusters, protecting the entire application lifecycle from cluster state to application
+                      data.
+                      </li>                      
                     </ul>
 
-                    <ul id="portfolio-content" class="top-border-green">
-
-                        <li class="f-video view">
-                            <a href="#" class="fancybox" rel="group" title="Pepper Summer by `Artgerm">
-                                <div class="div-info">
-                                    <div class="thumb-icon-photo"></div>
-                                    <div class="thumb-name">Pepper Summer</div>
-                                </div>
-                            </a>
-                            <img src="images/photocontent/portfolio_thumb_01.jpg" alt="">
-                        </li>
-
-                        <li class="f-photo view">
-                            <a href="images/photocontent/portfolio_01.jpg" class="fancybox" rel="group" title="Pepper Summer by `Artgerm">
-                                <div class="div-info">
-                                    <div class="thumb-icon-photo"></div>
-                                    <div class="thumb-name">Pepper Summer</div>
-                                </div>
-                            </a>
-                            <img src="images/photocontent/portfolio_thumb_01.jpg" alt="">
-                        </li>
-
-                        <li class="f-photo view">
-                            <a href="images/photocontent/portfolio_03.jpg" class="fancybox" rel="group" title="Pepper Freedom by `Artgerm">
-                                <div class="div-info">
-                                    <div class="thumb-icon-photo"></div>
-                                    <div class="thumb-name">Pepper Freedom</div>
-                                </div>
-                            </a>
-                            <img src="images/photocontent/portfolio_thumb_03.jpg" alt=""/>
-                        </li>
-
-                        <li class="f-photo view">
-                            <a href="images/photocontent/portfolio_06.jpg" class="fancybox" rel="group" title="Three Kingdoms - Xiao Qiao by `Artgerm">
-                                <div class="div-info">
-                                    <div class="thumb-icon-photo"></div>
-                                    <div class="thumb-name">Three Kingdoms - Xiao Qiao</div>
-                                </div>
-                            </a>
-                            <img src="images/photocontent/portfolio_thumb_06.jpg" alt=""/>
-                        </li>
-
-                    </ul>
+                  </p>
                 </div>
-
-                <div class="floatlimit"></div>
-
-            </div--><!-- /PORTFOLIO -->
-
-            <!-- CONTACTS -->
-            <div id="contacts">
-                <div class="fill-yellow">Contacts</div>
-
-                <div class="left-column">
-                    <div class="substrate">
-
-                    </div>
+              </div>
+              <div class="flex gap-6 card">
+                <div class="flex-shrink-0">
+                  <div class="w-16 h-16 rounded-lg bg-cover bg-center">
+                    <svg style="display:block" class="u30-oicn" xmlns="http://www.w3.org/2000/svg" width="32" height="21" viewBox="0 0 32 21"><path fill="#C74634" d="M9.9,20.1c-5.5,0-9.9-4.4-9.9-9.9c0-5.5,4.4-9.9,9.9-9.9h11.6c5.5,0,9.9,4.4,9.9,9.9c0,5.5-4.4,9.9-9.9,9.9H9.9 M21.2,16.6c3.6,0,6.4-2.9,6.4-6.4c0-3.6-2.9-6.4-6.4-6.4h-11c-3.6,0-6.4,2.9-6.4,6.4s2.9,6.4,6.4,6.4H21.2"></path></svg>
+                  </div>
                 </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Master Principal Cloud Architect</h4>
+                  <p class="text-sm text-gray-500 dark:text-gray-400">July 2020 - May 2025</p>
+                  <p class="mt-2 text-gray-700 dark:text-gray-300">
 
-                <div class="right-column">
-                    <div class="substrate">
-                        <h2>My Location</h2>
-                        <div id="map"></div><!-- GMAP -->
-                        <div class="map-pan">
-                            <div class="div-info pan" data-lat="19.432439" data-lng="-99.205196">
-                                <div class="thumb-icon-gmap"></div>
-                                <div class="thumb-name">Oracle de Mexico</div>
-                            </div>
-                        </div>
-                    </div>
+<ul>
+<li>• Designed and implemented a hybrid and multi-cloud architectures (Oracle,
+AWS, GCP and/or on-premises) for financial and retail institutions, reducing
+infrastructure costs by 30% and improving scalability.</li>
+<li>• Led a cloud cost optimization initiative, leveraging auto-scaling, reserved
+instances, spot instances and creating an on-demand consumption
+architecture to reduce down time in 15%.</li>
+<li>• Collaborated with development, operations teams, product managers and
+customers to implement a cloud-native microservices architecture, reducing
+deployment times by 50%.</li>
+<li>• Designed and implemented a disaster recovery plan for critical cloud
+applications, achieving the customer’s RTO (Recovery Time Objective) and
+RPO (Recovery Point Objective) which may differ according their deployments.</li>
+<li>• Pioneered the adoption of Kubernetes for container orchestration, enabling
+seamless deployment and scaling of microservices.</li>
+<li>• Designed an elastic cloud architecture capable of handling seasonal traffic
+spikes, supporting a 15x increase in user load during peak periods.</li>
+<li>• Ensured consistent performance and avoided costly over-provisioning.</li>
+</ul>
+
+                  </p>
                 </div>
-
-                <div class="floatlimit"></div>
-
-            </div><!-- /CONTACTS -->
-
-            <!-- FOOTER -->
-            <div class="footer">
-                <div class="left-column"><p>Maleficarum, Copyright © 2013</p></div>
-                <div class="right-column">
-
-                    <div class="social"><!-- Social icons -->
-                        <ul>
-                            <li class="twitter">
-                                <a href="http://twitter.com/maleficarum" target="_blank"><div class="icon-twitter"></div></a>
-                            </li>
-                            <li class="facebook">
-                                <a href="https://www.facebook.com/	" target="_blank"><div class="icon-facebook"></div></a>
-                            </li>
-                            <li class="vimeo">
-                                <a><div class="icon-vimeo"></div></a>
-                            </li>
-                            <li class="instagram">
-                                <a><div class="icon-instagram"></div></a>
-                            </li>
-                            <li class="linkedin">
-                                <a><div class="icon-linkedin"></div></a>
-                            </li>
-                            <li class="pinterest">
-                                <a><div class="icon-pinterest"></div></a>
-                            </li>
-                        </ul>
-                    </div><!-- /Social icons -->
-
+              </div>
+              <div class="flex gap-6 card">
+                <div class="flex-shrink-0">
+                  <div class="w-16 h-16 rounded-lg bg-cover bg-center">
+                    <svg style="display:block" class="u30-oicn" xmlns="http://www.w3.org/2000/svg" width="32" height="21" viewBox="0 0 32 21"><path fill="#C74634" d="M9.9,20.1c-5.5,0-9.9-4.4-9.9-9.9c0-5.5,4.4-9.9,9.9-9.9h11.6c5.5,0,9.9,4.4,9.9,9.9c0,5.5-4.4,9.9-9.9,9.9H9.9 M21.2,16.6c3.6,0,6.4-2.9,6.4-6.4c0-3.6-2.9-6.4-6.4-6.4h-11c-3.6,0-6.4,2.9-6.4,6.4s2.9,6.4,6.4,6.4H21.2"></path></svg>
+                  </div>
                 </div>
-                <div class="floatlimit"></div>
-            </div><!-- /FOOTER -->
+                <div>
+                  <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Principal Sales Consultant</h4>
+                  <p class="text-sm text-gray-500 dark:text-gray-400">November 2012 - May 2021</p>
+                  <p class="mt-2 text-gray-700 dark:text-gray-300">
+<ul>
+<li>• Developed Middleware Sales opportunities and maintain customer
+relationships.</li>
+<li>• Promoted and evangelized Oracle products to selected customers, partners,
+and internal audiences.</li>
+<li>• Developed relationships and collaborate with our partners to define,
+recommend, and drive sales.</li>
+<li>• Developed and execute a sales plan that provides complete territory and
+sector specific coverage to ensure sales targets, forecast accuracy and
+prioritization.</li>
+<li>• Contribute individually and as a team member, providing direction and
+mentoring to others.</li>  
+</ul>
+                  </p>
+                </div>
+              </div>
 
-        </div><!-- /Main Content -->
-        </div><!-- /Shadow -->
+              <div class="flex gap-6 card">
+                <div class="flex-shrink-0">
+                  <div class="w-16 h-16 rounded-lg bg-cover bg-center">
+                    
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Technology Advisor @ Sinformex</h4>
+                  <p class="text-sm text-gray-500 dark:text-gray-400">May 2007 - 2012</p>
+                  <p class="mt-2 text-gray-700 dark:text-gray-300">
+<ul>
+<li>• Driving technology strategy aligning with business goals and market trends.</li>
+<li>• Lead cross-functional teams to implement innovative technology solutions.</li>
+<li>• Foster a culture of continuous learning and technology adaptation.</li>
+<li>• Mentor and develop engineering leadership to enhance team capabilities.</li>
+<li>• Collaborate with stakeholders to prioritize technology investments and
+resources.</li>
+<li>• Implement agile methodologies to improve project delivery and efficiency.</li>
+<li>• Ensure cybersecurity measures are robust and align with industry standards.</li>
+<li>• Analyze data to inform strategic decisions and optimize technology
+operations.</li>
+<li>• Promote remote collaboration tools to enhance team productivity and
+connectivity.</li>
+<li>• Evaluate emerging technologies to maintain competitive advantage and
+innovation
+</ul>
+                  </p>
+                </div>
+              </div>  
+              
+              
+              <div class="flex gap-6 card">
+                <div class="flex-shrink-0">
+                  <div class="w-16 h-16 rounded-lg bg-cover bg-center">
+                    <img src="https://media.licdn.com/dms/image/v2/C4E0BAQEA0WCMSUxFWA/company-logo_200_200/company-logo_200_200/0/1631319725596?e=1762992000&v=beta&t=5ztHLXejLM4xkrCw70nrDPfwOFq-juqjv7JvlXWYRpc" />
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Senior Java Developer</h4>
+                  <p class="text-sm text-gray-500 dark:text-gray-400">May 2005 - Oct 2012</p>
+                  <p class="mt-2 text-gray-700 dark:text-gray-300">
+<ul>
+<li>• Designed and developed a high-performance, low-latency Java-based prepaid
+platform for a Telco services, handling 10,000+ transactions per second.</li>
+<li>• Enhanced application performance by 25% and reduced bug resolution time
+by 40%.</li>
+<li>• Integrated multiple third-party APIs and WebServices (e.g., payment
+gateways, geolocation services) into a Java-based prepaid platform, ensuring
+seamless data flow and error handling.</li>
+<li>• Increased conversion rates by 15% and improved customer retention.</li>
+<li>• Architected a scalable Java-based backend system for a prepaid backend
+platform, supporting 3M+ daily sales.</li>
+<li>• Ensured high availability and performance during peak traffic periods.
+Worked effectively with cross-functional teams (including QA, DevOps, and
+product management) to ensure seamless integration and delivery of software.</li>
+</ul>
+                  </p>
+                </div>
+              </div>              
+            </div>
+          </a>
+        </section>
+        <section id="skills" style="scroll-margin-top: 100px;">
+          <h3 class="text-2xl font-bold mb-8 text-gray-900 dark:text-white">Key Skills</h3>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+  <!-- Existing Skills -->
+  <div class="flex flex-col items-center gap-2 p-4 rounded-lg bg-primary/10 dark:bg-primary/20">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" class="w-12 h-12" />
+    <h4 class="font-semibold text-gray-900 dark:text-white">TypeScript</h4>
+  </div>
+  <div class="flex flex-col items-center gap-2 p-4 rounded-lg bg-primary/10 dark:bg-primary/20">
+    
+            <img class="w-12 h-12"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+          
+    <h4 class="font-semibold text-gray-900 dark:text-white">Java</h4>
+  </div>
+  <div class="flex flex-col items-center gap-2 p-4 rounded-lg bg-primary/10 dark:bg-primary/20">
+    
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" class="w-12 h-12" />
+          
+    <h4 class="font-semibold text-gray-900 dark:text-white">Spring</h4>
+  </div>
+  <div class="flex flex-col items-center gap-2 p-4 rounded-lg bg-primary/10 dark:bg-primary/20">
+    
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" class="w-12 h-12" />
+          
+          
+    <h4 class="font-semibold text-gray-900 dark:text-white">JavaScript</h4>
+  </div>
+  <div class="flex flex-col items-center gap-2 p-4 rounded-lg bg-primary/10 dark:bg-primary/20">
+    
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" class="w-12 h-12" />
+          
+    <h4 class="font-semibold text-gray-900 dark:text-white">Terraform</h4>
+  </div>
+  <div class="flex flex-col items-center gap-2 p-4 rounded-lg bg-primary/10 dark:bg-primary/20">
+    <img class="w-12 h-12" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />
+    <h4 class="font-semibold text-gray-900 dark:text-white">Kubernetes</h4>
+  </div>
+</div>
+        </section>
+      </div>
+    </main>
+    <footer class="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-gray-500 dark:text-gray-400">
+        <p>© 2005 - 2025 Oscar I Hernandez V. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
 
-    <script src="js/jquery.hashchange.min.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/jquery.easytabs.min.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.fancybox-media.js"></script>
-    <script src="js/jquery.infieldlabel.min.js"></script>
-    <script src="js/gmap3.min.js"></script>
-    <script src="js/contact.js"></script>
-    <script src="js/settings.js"></script>
 
-    </body>
+</body>
 
 </html>
+
+<style>
+  .card {
+    /* width: 80%; */
+    /* max-width: 600px; */
+    /* background: white; */
+    /* border-radius: 12px; */
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+    padding: 1rem 1rem 1rem 1rem;
+    /* text-align: center; */
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+
+  /* efecto de hover */
+  .card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    /* levanta la tarjeta un poco */
+  }
+</style>
+
+<script>
+  // function openPrintPage() {
+  //   const printWindow = window.open('./src/utils/cv_english.html', '_blank');
+  //   printWindow.onload = function () {
+  //     printWindow.focus();
+  //     printWindow.print();
+  //     printWindow.onafterprint = function () {
+  //       printWindow.close();
+  //     };
+  //   };
+  // }
+
+</script>
