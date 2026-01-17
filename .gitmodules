@@ -1,0 +1,3 @@
+[submodule "ai_master"]
+	path = ai_master
+	url = git@github.com:maleficarum/ia_master.git
